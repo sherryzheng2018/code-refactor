@@ -7,7 +7,8 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* change header class into semantic tag
+ */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,6 +21,7 @@ header h1 {
     font-size: 48px;
 }
 
+/* remove unnecessary class selector*/
 #seo {
     color: #d9dcd6;
 }
@@ -83,22 +85,27 @@ p {
     background-color: #2589bd;
 }
 
+/* combined duplicated css id into class selector
+define common style for section under benefits class
+*/
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* define common style for h3 under benefits class*/
 .benefit section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*define common style for img under benefits class*/
 .benefits section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* define common style for section under content class*/
 .content section {
     margin-bottom: 20px;
     padding: 50px;
@@ -107,11 +114,11 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* define common style for img under content class*/
 .content section img {
     max-height: 200px;
 }
-
+/* define common style for h2 under content class*/
 .content section h2 {
     margin-bottom: 20px;
     font-size: 36px;
